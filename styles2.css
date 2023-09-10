@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    /* background: radial-gradient(circle, rgba(180, 136, 58, 1) 0%, rgba(253, 85, 29, 1) 50%, rgba(119, 252, 69, 1) 150%); */
+    /* background-color: rgb(139, 127, 113); */
+    background-image: url(images/nor.png);
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#container {
+margin-top: 20px;
+   
+
+
+}
+
+#logo {
+    /* color: rgb(245, 221, 221); */
+    
+
+
+}
+
+.bigTitle {
+    margin-top: 20px;
+    font-size: 60px; 
+    font-weight: 900;
+    letter-spacing: 8px; 
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+
+
+}
+
+#navbar {
+    background: linear-gradient(0deg, rgba(6, 23, 129, 0.4) 26%, rgba(5, 129, 52, 0.4) 94%);
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+     margin-top: 20px;
+     letter-spacing: 20px;
+     border-radius: 20px;
+     /* outline-style: solid; */
+     padding: 15px;
+     align-items: center;
+     
+     
+     
+    
+}
+
+#topbar {
+   gap: 50px;
+   display: flex;
+
+
+}
+
+#topbarL {
+    margin-top: 10px;
+    margin-left: 20px;
+    opacity: 0.5;
+    
+    
+
+
+}
+
+#topbarR {
+    flex-direction: column;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    
+    
+
+
+}
+
+#sidebar {
+    background: radial-gradient(circle, rgba(6, 23, 129, 0.4) 26%, rgba(5, 129, 52, 0.4) 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 17vh;
+    text-align: center;
+    border-radius: solid 2px;
+    margin-left: 20px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    border-radius: 10px;
+    align-items: stretch;
+    
+
+}
+
+#content {
+   display: flex;
+  flex-direction: row;
+}
+
+#footer {
+display: flex;
+    flex-direction: row;
+}
+
+.option {
+   /* display: flex;
+   flex-wrap: wrap;
+   align-items: center; */
+   
+  
+}
+
+.option:hover {
+    background-color: rgb(20, 68, 224); 
+    cursor: pointer;
+    border-radius: 10px;
+    outline-style: auto;
+    transform: scale(1.2);
+    color: rgb(110, 240, 110);
+    text-align: center;
+    
+
+}
+
+.optionL {
+    
+    border-bottom: 2px solid #035723;
+}
+
+.optionL:hover {
+    background-color: rgb(20, 68, 224);;
+        cursor: pointer;
+        border-radius: 10px;
+        outline-style: auto;
+        transform: scale(1.1);
+        color: rgb(110, 240, 110);
+        
+    text-align: center;
+}
+
+/* .dottedline {
+     height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+} */
+
+.bigW {
+    /* font-size: 30px; */
+}
+
+#topbarL:hover {
+    opacity: 1;
+
+}

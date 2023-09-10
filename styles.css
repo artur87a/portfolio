@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body
 {
     /* background: radial-gradient(circle, rgba(180, 136, 58, 1) 0%, rgba(253, 85, 29, 1) 50%, rgba(119, 252, 69, 1) 150%); */
@@ -8,7 +13,7 @@ body
 
 #container
 {
-width: 1000px;
+
 margin-left: auto;
 margin-right: auto;
 
@@ -36,15 +41,16 @@ text-align: center;
 #navbar
 {
 background-color: rgb(156, 157, 179);
+
  color: whitesmoke;
  margin-top: 20px;
- border-radius: 20px;
- padding: 20px;
+ /* border-radius: 20px; */
+ padding: 10px;
  font-size: 26px;
  height: 30px;
  text-align: center;
- justify-content: end;
-letter-spacing: 12px;
+ justify-content: center;
+letter-spacing: 20px;
 
  
 
@@ -59,7 +65,7 @@ color: white;
 padding:10px;
 margin-top: 20px;
 margin-bottom: 25px;
-height: 192px;
+/* height: 192px; */
 
 
 }
@@ -67,7 +73,7 @@ height: 192px;
 #topbarL
 {
     float: left;
-    width: 178px;
+    /* width: 178px; */
     text-align: center;
     border-right: 2px dotted #cccccc;
     
@@ -77,7 +83,7 @@ height: 192px;
 #topbarR
 {
 float: left;
-width: 740px;
+/* width: 740px; */
 padding: 10px;
 text-align: justify;
 font-size: 19px;
@@ -87,7 +93,7 @@ font-size: 19px;
 #sidebar
 {
 float: left;
-width: 148px;
+/* width: 148px; */
 min-height: 620px;
 padding: 10px;
 background-color: rgb(149, 150, 179);
@@ -101,7 +107,7 @@ color: whitesmoke;
 {
 float: left;
 padding: 40px;
-width: 752px;
+/* width: 752px; */
 background-color: #8b8181;
 min-height: 560px;
 text-align: center;
@@ -139,7 +145,7 @@ border-radius: 10px;
 
 .optionL
 {
-  height: 25px;
+  /* height: 25px; */
   padding: 15px;
   border-bottom: 2px solid #444444;  
 }
@@ -163,3 +169,4 @@ background-color: #062ba3;
 {
     font-size: 30px;
 }
+
