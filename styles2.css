@@ -27,13 +27,14 @@ margin-top: 20px;
 }
 
 .bigTitle {
+    display: flex;
     margin-top: 20px;
     font-size: 60px; 
     font-weight: 900;
     letter-spacing: 8px; 
     text-align: center;
     justify-content: center;
-    display: flex;
+    
     
 
 
